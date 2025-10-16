@@ -1,4 +1,4 @@
-package ru.netology.CSV_JSON_XML_parser;
+package ru.netology.CSV_JSON_XML_parser_task1and2;
 
 public class Employee {
     public long id;

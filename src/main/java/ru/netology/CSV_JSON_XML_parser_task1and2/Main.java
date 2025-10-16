@@ -1,4 +1,4 @@
-package ru.netology.CSV_JSON_XML_parser;
+package ru.netology.CSV_JSON_XML_parser_task1and2;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -39,10 +39,10 @@ public class Main {
         String fileNameXml = "data.xml";
 
         List<Employee> listX = parseXML(fileNameXml);
-        listX.forEach(System.out::println);
+//        listX.forEach(System.out::println);
 
         String json2 = listToJson(listX);
-        writeString(json, "data2.json");
+        writeString(json2, "data2.json");
     }
 
     public static List<Employee> parseCSV(String[] columnMapping, String fileName) {
