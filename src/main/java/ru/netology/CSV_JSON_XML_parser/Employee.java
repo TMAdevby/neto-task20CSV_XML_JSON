@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.CSV_JSON_XML_parser;
 
 public class Employee {
     public long id;
@@ -17,5 +17,16 @@ public class Employee {
         this.lastName = lastName;
         this.country = country;
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", country='" + country + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
